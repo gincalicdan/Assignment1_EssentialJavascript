@@ -1,0 +1,46 @@
+<!--
+* @name: Assignment1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Rogine Calicdan
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> <!-- Hint: Use JQuery to access the DOM elements in your code for this question -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="jsfolder/weather.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="markToGrade.html">Mark to Grade</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="weather.html">Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <label for="temperature-input">Enter Temperature (Fahrenheit):</label>
+        <input type="text" id="temperature-input">
+        <button onclick="convertTemperature()">Convert</button>
+
+        <p id="celsius-result"></p>
+        <p id="kelvin-result"></p>
+    </section>
+
+    <footer id="footer">
+        <div id="copyright"></div>
+    </footer>
+
+    <script src="jsfolder/footer.js"></script>
+
+</body>
+</html>

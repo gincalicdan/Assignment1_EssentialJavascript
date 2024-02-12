@@ -1,0 +1,44 @@
+<!--
+* @name: Assignment1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Rogine Calicdan
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jsfolder/staff.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="markToGrade.html">Mark to Grade</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="weather.html">Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h2>Staff Information</h2>
+        <button onclick="sortByName()">Sort by Name</button>
+        <button onclick="sortBySalary()">Sort by Salary</button>
+
+        <ul id="staff-list"></ul>
+    </section>
+
+    <footer id="footer">
+        <div id="copyright"></div>
+    </footer>
+
+    <script src="jsfolder/footer.js"></script>
+
+</body>
+</html>

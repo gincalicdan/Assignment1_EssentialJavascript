@@ -1,0 +1,46 @@
+<!--
+* @name: Assignment1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: Rogine Calicdan
+-->
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark to Grade Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jsfolder/markToGrade.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="markToGrade.html">Mark to Grade</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="weather.html">Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <label for="mark">Enter Mark:</label>
+        <input type="text" id="mark">
+        <button onclick="markToGrade()">Convert</button>
+
+        <p id="msg"></p>
+        <p id="grade"></p>
+    </section>
+
+    <footer id="footer">
+        <div id="copyright"></div>
+    </footer>
+
+    <script src="jsfolder/footer.js"></script>
+
+</body>
+</html>
